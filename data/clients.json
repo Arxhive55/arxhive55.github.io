@@ -1,0 +1,24 @@
+{
+  "clients": [
+    {
+      "name": "Xiva",
+      "description": "A cheat client designed for performance, flexibility, and bypassing mostly stricter anticheats in mind with a focus on modularity and clean design.",
+      "price": -1,
+      "link": "discord",
+      "images": [
+        "xiva/mainmenu.webp",
+        "xiva/clickgui.webp"
+      ]
+    },
+    {
+      "name": "Monsoon",
+      "description": "A discontinued cheat client focused at Hypixel and Vulcan. It works okay.",
+      "price": -1,
+      "link": "discord",
+      "images": [
+        "monsoon/clickgui.webp",
+        "monsoon/ingame.webp"
+      ]
+    }
+  ]
+}
