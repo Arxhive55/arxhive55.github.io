@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Wonderland Central</title>
+    <meta content="Wonderland Central" property="og:title" />
+    <meta content="Wonderland is the #1 place for all your Minecraft utilities" property="og:description" />
+    <meta content="https://wonderlandlibrary.github.io" property="og:url" />
+    <meta content="https://wonderlandlibrary.github.io/icons/wonderland_big.png" property="og:image" />
+    <link rel="icon" href="https://wonderlandlibrary.github.io/icons/wonderland_tiiiiny.ico" type="image/x-icon">
+    <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel=" stylesheet">
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/background.css"/>
+    <link rel="stylesheet" href="css/archive.css"/>
+</head>
+<body>
+
+<div class="wave"></div>
+<div class="wave"></div>
+<div class="wave"></div>
+
+<div class="bg">
+    <div class="page-bg"></div>
+
+    <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+    </div>
+</div>
+
+<header>
+    <div class="left-section">
+        <a class="site-name" href="/">Wonderland Central</a>
+        <nav class="top-nav">
+            <div class="dropdown">
+                <a href="#">Marketplace</a>
+                <ul class="dropdown-menu" id="client-dropdown"></ul>
+            </div>
+            <div class="dropdown">
+                <a href="#">Archive</a>
+                <ul class="dropdown-menu" id="archive-dropdown"></ul>
+            </div>
+        </nav>
+    </div>
+    <a href="discord.html">
+        <img src="icons/discord.webp" alt="Logo" class="logo"/>
+    </a>
+</header>
+
+
+<div class="window-wrapper">
+    <main class="window" id="archive">
+      <h2 class="section-header">Archive</h2>
+      <h3 class="section-description">Survived 5 DMCAs with more to come!</h3>
+      <div class="button-grid by3" id="button-grid-main"></div>
+      <div class="button-grid by2" id="button-grid-secondary"></div>
+
+      <h3 class="sub-header">Scripts</h3>
+      <div class="button-grid by3" id="button-grid-scripts"></div>
+
+      <h3 class="sub-header">Credits</h3>
+
+      <div class="credits">
+        <div class="credit-box">
+          <h3 class="credit-header">Contributors</h3>
+          <p id="contributors"></p>
+        </div>
+
+        <div class="credit-box">
+          <h3 class="credit-header">Sources</h3>
+          <p id="sources"></p>
+        </div>
+      </div>
+    </main>
+</div>
+
+</body>
+<script src="js/credits.js"></script>
+<script src="js/marketplace.js"></script>
+<script src="js/archive.js"></script>
+</html>
