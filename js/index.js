@@ -5,7 +5,7 @@ window.addEventListener("load", async () => {
     contentBox.classList.add("window");
 
     const title = document.createElement("h2");
-    title.innerText = "Wonderland Central";
+    title.innerText = "Arxhive";
     title.classList.add("title");
     contentBox.appendChild(title)
 
