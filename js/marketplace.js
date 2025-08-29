@@ -6,7 +6,7 @@ const clients = [ ]
 let currentIndex = -1;
 
 window.addEventListener("load", async function() {
-    fetch('https://wonderland.sigmaclient.cloud/data/clients.json')
+    fetch('https://arxhive55.github.io/data/clients.json')
         .then(response => {
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
             return response.json()
@@ -91,8 +91,8 @@ async function setClientToWindow(client) {
         "javascript:left()",
         client.link,
         "javascript:right()",
-        "https://wonderland.sigmaclient.cloud/data/" + client.previewImage1,
-        "https://wonderland.sigmaclient.cloud/data/" + client.previewImage2,
+        "https://arxhive55.github.io/data/" + client.previewImage1,
+        "https://arxhive55.github.io/data/" + client.previewImage2,
         clientPrice,
         clickable
     )
